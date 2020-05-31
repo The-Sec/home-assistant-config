@@ -1,0 +1,10 @@
+---
+description: Send notification on Home Assistant stop
+alias: system_shutdown_notification
+trigger:
+  - platform: homeassistant
+    event: shutdown
+action:
+  - service: notify.robert_iphone
+    data:
+      message: Home Assistant is shutting down... Bye!
