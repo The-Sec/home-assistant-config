@@ -1,0 +1,11 @@
+---
+# This uses the dsmr sensor platform.
+# Use P1 to USB cable to get telegrams from the smart meter.
+#
+# This is usefull for tracking over all household power usage
+#
+# https://www.home-assistant.io/integrations/dsmr
+#
+platform: dsmr
+port: !secret dsmr_port
+dsmr_version: 4
