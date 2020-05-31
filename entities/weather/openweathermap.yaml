@@ -1,0 +1,12 @@
+---
+# The openweathermap platform uses the openweathermap web service as a source for
+# meteorological data for your location.
+#
+# https://www.home-assistant.io/integrations/openweathermap/
+#
+weather:
+  - platform: openweathermap
+    api_key: 8c12f48a1f851bb59d7c65036192aef0
+    mode: freedaily
+    latitude: !secret gps_latitude
+    longitude: !secret gps_longitude
