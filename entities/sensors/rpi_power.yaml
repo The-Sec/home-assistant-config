@@ -7,6 +7,5 @@
 #
 # https://github.com/custom-components/sensor.rpi_power
 #
-sensor:
-  platform: rpi_power
-  text_state: true
+platform: rpi_power
+text_state: true
