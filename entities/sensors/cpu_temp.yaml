@@ -1,5 +1,5 @@
 ---
-# The uses the command_line sensor platform.
+# This uses the command_line sensor platform.
 # Will execute command to get CPU Temperature.
 #
 # This is usefull for tracking the Raspberry PI CPU Temp
