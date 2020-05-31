@@ -1,0 +1,15 @@
+# DSMR
+sensor:
+        - platform: dsmr
+          port: /dev/serial/by-id/usb-FTDI_P1_Converter_Cable_A6Y56PUK-if00-port0
+          dsmr_version: 4
+          
+group:
+        meter_readings:
+                name: Meter reading
+                entities:
+                        - sensor.energy_consumption_tarif_1
+                        - sensor.energy_consumption_tarif_2
+                        - sensor.energy_production_tarif_1
+                        - sensor.energy_production_tarif_2
+                        - sensor.gas_consumption
