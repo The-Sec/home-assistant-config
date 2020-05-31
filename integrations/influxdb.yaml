@@ -10,7 +10,7 @@
 influxdb:
 
   # This is the Hass.io add-on slug, allowing a direct connection to the addon.
-  host: addon_a0d7b954_influxdb
+  host: !secret influxdb_hostname
   port: 8086
 
   # The database name to store all the metrics in.
