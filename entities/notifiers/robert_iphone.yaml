@@ -8,4 +8,4 @@
 platform: group
 name: robert_iphone
 services:
-  - service: mobile_app_robert_iphone
+  - service: !secret iphone_rob
