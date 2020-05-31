@@ -5,7 +5,7 @@ trigger:
   - platform: homeassistant
     event: shutdown
 action:
-  - service: notify.robert_iphone
+  - service: !secret robert_iphone
     data:
       message: Home Assistant is shutting down... Bye!
       data:
