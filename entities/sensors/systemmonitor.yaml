@@ -1,0 +1,21 @@
+---
+# This uses the systemmonitor sensor platform.
+# Gather system statistics
+#
+# This is usefull for tracking health state of the HA system
+#
+# https://www.home-assistant.io/integrations/systemmonitor
+#
+platform: systemmonitor
+resources:
+  - type: disk_use_percent
+    arg: /
+  - type: memory_use_percent
+  - type: memory_free
+  - type: swap_use_percent
+  - type: swap_free
+  - type: load_1m
+  - type: load_5m
+  - type: load_15m
+  - type: processor_use
+  - type: last_boot
