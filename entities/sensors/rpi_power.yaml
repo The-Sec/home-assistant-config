@@ -1,0 +1,12 @@
+---
+# This uses the rpi_power sensor platform.
+# Get power delivery stats
+#
+# This is usefull for tracking the Raspberry PI power levels
+# (Under-voltage/limited/throttled-power/throttled-heat)
+#
+# https://github.com/custom-components/sensor.rpi_power
+#
+sensor:
+  platform: rpi_power
+  text_state: true
