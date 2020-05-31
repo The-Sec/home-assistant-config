@@ -5,6 +5,8 @@
 # This is a small workaround to be able to do that.
 # I uses groups to map devices to my consistent format.
 #
+# https://companion.home-assistant.io/docs/notifications/notifications-basic
+#
 platform: group
 name: iphone_robert
 services:
