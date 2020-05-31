@@ -1,0 +1,13 @@
+---
+description: Send notification on Home Assistant restart
+alias: system_restart_notification
+id: 
+trigger:
+  - platform: homeassistant
+    event: restart
+action:
+  - service: notify.robert_iphone
+    data:
+      message: Home Assistant is restarting
+      data:
+        push:
