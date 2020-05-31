@@ -6,7 +6,7 @@
 #
 weather:
   - platform: openweathermap
-    api_key: 8c12f48a1f851bb59d7c65036192aef0
+    api_key: !secret openweathermap_apikey
     mode: freedaily
     latitude: !secret gps_latitude
     longitude: !secret gps_longitude
