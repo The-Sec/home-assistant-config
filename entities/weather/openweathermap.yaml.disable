@@ -4,9 +4,8 @@
 #
 # https://www.home-assistant.io/integrations/openweathermap/
 #
-weather:
-  - platform: openweathermap
-    api_key: !secret openweathermap_apikey
-    mode: freedaily
-    latitude: !secret gps_latitude
-    longitude: !secret gps_longitude
+platform: openweathermap
+api_key: !secret openweathermap_apikey
+mode: freedaily
+latitude: !secret gps_latitude
+longitude: !secret gps_longitude
