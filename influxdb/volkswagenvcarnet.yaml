@@ -1,0 +1,10 @@
+---
+# These are the volkswagencarnet entities that I want
+# to store into InfluxDB.
+#
+# I like to specify (whitelist) each entity to store,
+# since that keeps my InfluxDB clean and small.
+#
+- sensor.egolf_odometer
+- sensor.egolf_battery_level
+- sensor.egolf_electric_range
