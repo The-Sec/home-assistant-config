@@ -14,7 +14,7 @@ deps
 
 # Specific file ignores
 secrets.yaml
-
+known_devices.yaml
 
 # Ignore add-on files
 aircast.xml
