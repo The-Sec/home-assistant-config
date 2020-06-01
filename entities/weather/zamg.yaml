@@ -1,0 +1,9 @@
+---
+# The ZAMG platform uses the zamg web service as a source for
+# meteorological data for your location.
+#
+# https://www.home-assistant.io/integrations/zamg/
+#
+platform: zamg
+latitude: !secret gps_latitude
+longitude: !secret gps_longitude
