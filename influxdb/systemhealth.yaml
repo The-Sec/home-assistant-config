@@ -1,0 +1,22 @@
+---
+# These are the systemhealth entities that I want
+# to store into InfluxDB.
+#
+# I like to specify (whitelist) each entity to store,
+# since that keeps my InfluxDB clean and small.
+#
+- sensor.processor_use
+- sensor.cpu_temperature
+- sensor.load_5m
+- sensor.load_15m
+
+- sensor.memory_use_percent
+- sensor.memory_free
+
+- sensor.swap_use_percent
+- sensor.swap_free
+
+- sensor.disk_use_percent
+- sensor.disk_free
+
+- sensor.last_boot
