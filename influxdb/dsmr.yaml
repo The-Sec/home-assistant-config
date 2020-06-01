@@ -1,0 +1,15 @@
+---
+# These are the dsmr entities that I want
+# to store into InfluxDB.
+#
+# I like to specify (whitelist) each entity to store,
+# since that keeps my InfluxDB clean and small.
+#
+- sensor.power_consumption
+- sensor.energy_consumption_tarif_1
+- sensor.energy_consumption_tarif_2
+- sensor.energy_production_tarif_1
+- sensor.energy_production_tarif_2
+- sensor.gas_consumption
+- sensor.short_power_failure_count
+- sensor.long_power_failure_count
