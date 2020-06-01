@@ -11,5 +11,3 @@
 - sensor.energy_production_tarif_1
 - sensor.energy_production_tarif_2
 - sensor.gas_consumption
-- sensor.short_power_failure_count
-- sensor.long_power_failure_count
