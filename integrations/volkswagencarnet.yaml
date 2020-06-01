@@ -1,0 +1,27 @@
+volkswagencarnet:
+    username: !secret vwcarnet_username
+    password: !secret vwcarnet_password
+    spin: !secret vwcarnet_spin
+    scan_interval: 
+        minutes: 1
+    name:
+        wvwzzzauzlw906095: !secret vwcarnet_plate
+    resources:
+        - position
+        - distance
+        - climatisation
+        - window_heater
+        - charging
+        - battery_level
+        - service_inspection
+        - last_connected
+        - charging_time_left
+        - electric_range
+        - charge_max_ampere
+        - climatisation_target_temperature
+        - external_power
+        - parking_light
+        - climatisation_without_external_power
+        - door_locked
+        - trunk_locked
+        - request_in_progress
