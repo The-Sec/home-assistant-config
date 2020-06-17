@@ -5,5 +5,5 @@
 # on the integrations page in the config panel.
 #
 # https://www.home-assistant.io/integrations/ssdp/
-#
-ssdp: ~
+# (Uncomment to re-enable)
+# ssdp: ~
