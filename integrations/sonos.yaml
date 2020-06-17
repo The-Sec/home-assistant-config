@@ -1,0 +1,8 @@
+---
+#
+# https://www.home-assistant.io/integrations/sonos/
+#
+sonos:
+  media_player:
+    hosts:
+      - 192.168.178.36
