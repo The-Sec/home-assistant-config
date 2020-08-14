@@ -9,9 +9,10 @@ volkswagencarnet:
     resources:
         - position
         - distance
-        - climatisation
+        - electric_climatisation
         - window_heater
         - charging
+        - adblue_level
         - battery_level
         - service_inspection
         - last_connected
@@ -23,5 +24,18 @@ volkswagencarnet:
         - parking_light
         - climatisation_without_external_power
         - door_locked
+        - door_closed_left_front
+        - door_closed_right_front
+        - door_closed_left_back
+        - door_closed_right_back
         - trunk_locked
-        - request_in_progress
+        - trunk_closed
+        - sunroof_closed
+        - windows_closed
+        - window_closed_left_front
+        - window_closed_right_front
+        - window_closed_left_back
+        - window_closed_right_back
+        - trip_last_average_speed
+        - trip_last_average_electric_consumption
+        - trip_last_duration
