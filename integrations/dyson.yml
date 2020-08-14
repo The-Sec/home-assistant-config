@@ -1,0 +1,7 @@
+dyson:
+  username: !secret dyson_username
+  password: !secret dyson_password
+  language: !secret dyson_lang
+  devices:
+    - device_id: !secret dyson_dev_id
+      device_ip: !secret dyson_dev_ip
