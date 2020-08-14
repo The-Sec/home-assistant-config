@@ -4,3 +4,8 @@
 #
 webostv:
   host: !secret livingroom_tv
+  turn_on_action:
+    service: wake_on_lan.send_magic_packet
+    data:
+      mac: !secret livingroom_tv_mac
+      broadcast_address: 11.22.33.44
